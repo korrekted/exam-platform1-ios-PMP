@@ -32,6 +32,7 @@
 		96967C1F26615B450070E7F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96967C1E26615B450070E7F7 /* Localizable.strings */; };
 		96967C2126615B490070E7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96967C2026615B490070E7F7 /* LaunchScreen.storyboard */; };
 		96967C27266161980070E7F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96967C26266161980070E7F7 /* GoogleService-Info.plist */; };
+		DE1D023428CB2386003AC1FD /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1D023328CB2386003AC1FD /* Onboarding.Chart.json */; };
 		DEC35B69289845CF005372BC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC359A4289845CF005372BC /* UIColorExtension.swift */; };
 		DEC35B6A289845CF005372BC /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC359A5289845CF005372BC /* Collection+Extension.swift */; };
 		DEC35B6B289845CF005372BC /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC359A6289845CF005372BC /* Observable+Utils.swift */; };
@@ -334,7 +335,6 @@
 		DEC35C94289845CF005372BC /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC35B4B289845CF005372BC /* OImproveCell.swift */; };
 		DEC35C95289845CF005372BC /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC35B4D289845CF005372BC /* ReferencesTableCell.swift */; };
 		DEC35C96289845CF005372BC /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC35B4E289845CF005372BC /* ReferencesTableView.swift */; };
-		DEC35C97289845CF005372BC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC35B50289845CF005372BC /* Onboarding.Chart.json */; };
 		DEC35C98289845CF005372BC /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC35B51289845CF005372BC /* OWhenStudyCell.swift */; };
 		DEC35C99289845CF005372BC /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC35B53289845CF005372BC /* WelcomeSlide1View.swift */; };
 		DEC35C9A289845CF005372BC /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC35B54289845CF005372BC /* WelcomeSlideIndicatorView.swift */; };
@@ -421,6 +421,7 @@
 		96967C2026615B490070E7F7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96967C2226615B510070E7F7 /* PMP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMP-Bridging-Header.h"; sourceTree = "<group>"; };
 		96967C26266161980070E7F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE1D023328CB2386003AC1FD /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC359A4289845CF005372BC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DEC359A5289845CF005372BC /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DEC359A6289845CF005372BC /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -723,7 +724,6 @@
 		DEC35B4B289845CF005372BC /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DEC35B4D289845CF005372BC /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DEC35B4E289845CF005372BC /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DEC35B50289845CF005372BC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC35B51289845CF005372BC /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DEC35B53289845CF005372BC /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DEC35B54289845CF005372BC /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2273,7 +2273,7 @@
 		DEC35B4F289845CF005372BC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEC35B50289845CF005372BC /* Onboarding.Chart.json */,
+				DE1D023328CB2386003AC1FD /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2382,12 +2382,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC35CB428984609005372BC /* SF-Pro-Rounded-Black.otf in Resources */,
-				DEC35C97289845CF005372BC /* Onboarding.Chart.json in Resources */,
 				96967C27266161980070E7F7 /* GoogleService-Info.plist in Resources */,
 				96967C1F26615B450070E7F7 /* Localizable.strings in Resources */,
 				96967C1A26615B420070E7F7 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				96967C1926615B420070E7F7 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				96967C2126615B490070E7F7 /* LaunchScreen.storyboard in Resources */,
+				DE1D023428CB2386003AC1FD /* Onboarding.Chart.json in Resources */,
 				96967A0E26615A380070E7F7 /* Assets.xcassets in Resources */,
 				96967C1B26615B420070E7F7 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2831,7 +2831,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2840,7 +2840,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pmp.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "PMP Widget Prod";
@@ -2858,7 +2858,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2867,7 +2867,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pmp.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "PMP Widget Prod";
@@ -3003,7 +3003,7 @@
 				CODE_SIGN_ENTITLEMENTS = PMP/PMP.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/PMP/Resource/Info.plist";
@@ -3012,7 +3012,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pmp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "PMP Prod";
@@ -3032,7 +3032,7 @@
 				CODE_SIGN_ENTITLEMENTS = PMP/PMP.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/PMP/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3040,7 +3040,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pmp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "PMP Prod";
